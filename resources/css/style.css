@@ -21,17 +21,27 @@ header {
   z-index: 2;
 }
 
-header span {
-  text-decoration: underline;
-  margin: 0px 20px;
-}
-
 header img {
   height: 50px;
   margin-left: 10px;
 }
 
-.contents {
+nav {
+  margin-right: 30px;
+  display: flex;
+  min-width: 69px;
+  margin-left: 80px;
+}
+
+span {
+  padding-left: 15px;
+}
+
+span a {
+  color: SeaShell;
+}
+
+.main {
   position: relative;
   top: 70px;
   z-index: 1;
@@ -64,12 +74,16 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 50px 0px;
+  margin: 70px 0;
   align-self: center;
 }
 
-.month h4, h2 {
+.month h2 {
   margin: 20px 0px;
+}
+
+.month h4 {
+  margin: 0px 0px 20px 0px;
 }
 
 .teabox {
@@ -99,6 +113,7 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  background-size: cover;
 }
 
 .location h2 {
